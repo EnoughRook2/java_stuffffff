@@ -15,11 +15,16 @@ public class cat_test_hi {
         int b=10;
         System.out.println(Math.sqrt(b));
         String cc="IMAAD";
-        String re="hi";
+        String re="hi ";
         String jq= cc.substring(1,2);
         System.out.println(jq);
         String f=re+cc;
         System.out.println(f);
+        System.out.println('\u2232');
+        String all = String.join(", ","imaad","yash","ishan","ayush","prajesh","and my cat.");
+        System.out.println(all);
+        String repeated="owo ".repeat(5);
+        System.out.println(repeated);
     }
 }
 /**  Hello biden, this is zelenskys*
@@ -27,5 +32,6 @@ public class cat_test_hi {
 /**
  * 
  * ooooo this is neat
+ * diddy vs epstein
  */
 
